@@ -147,8 +147,8 @@ MoveTutor_Text_SleepTalkTaught: @ 82C775A
 	.string "even as I Sleep Talk…$"
 
 MoveTutor_Text_ZenHeadbuttTeach: @ 82C77C6
-    	.string "\"Mind over matter Dr. Angelo.\n"
-    	.string "Not a miracle...... a fact.\" A favorite\n"
+    	.string "Mind over matter Dr. Angelo.\n"
+    	.string "Not a miracle...... a fact. A favorite\n"
     	.string "quote from my favorite movie\p"
     	.string "The Lawnmower Man.\n"
     	.string "I was so inspired by the character Jobe\n"
@@ -174,8 +174,8 @@ MoveTutor_Text_ZenHeadbuttWhichMon: @ 82C7911
     	.string "potential?$"
 
 MoveTutor_Text_ZenHeadbuttTaught: @ 82C794B
-    	.string "\"THIS UNIVERSE IS MINE!!!!!\n"
-    	.string "I AM COB HERE!!!!\"$"
+    	.string "THIS UNIVERSE IS MINE!!!!!\n"
+    	.string "I AM COB HERE!!!!$"
 
 MoveTutor_Text_DynamicPunchTeach: @ 82C79A6
 	.string "I can't do this anymore!\p"
