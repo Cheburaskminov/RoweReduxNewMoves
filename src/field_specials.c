@@ -3206,18 +3206,18 @@ static const u16 sBattleFrontier_TutorMoves1[] =
     MOVE_MEGA_PUNCH, 
     MOVE_MEGA_KICK, 
     MOVE_BODY_SLAM, 
-    MOVE_ROCK_SLIDE, 
+    MOVE_STORED_POWER, 
     MOVE_COUNTER, 
-    MOVE_THUNDER_WAVE, 
-    MOVE_SWORDS_DANCE 
+    MOVE_SPIKES, 
+    MOVE_IRON_HEAD 
 };
 
 static const u16 sBattleFrontier_TutorMoves2[] =
 { 
-    MOVE_DEFENSE_CURL, 
-    MOVE_SNORE, 
-    MOVE_MUD_SLAP, 
-    MOVE_SWIFT, 
+    MOVE_IRON_DEFENSE, 
+    MOVE_AIR_SLASH, 
+    MOVE_ROCK_BLAST, 
+    MOVE_TOXIC_SPIKES, 
     MOVE_ICY_WIND, 
     MOVE_ENDURE, 
     MOVE_PSYCH_UP, 
