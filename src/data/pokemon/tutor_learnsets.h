@@ -3011,6 +3011,7 @@ static const u8 sMewtwoTutorLearnset[] =
 
 static const u8 sMewTutorLearnset[] =
 {
+    TUTOR(MOVE_AURORA_BEAM),
     TUTOR(MOVE_BODY_PRESS),
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_BREAKING_SWIPE),
@@ -7668,6 +7669,7 @@ static const u8 sDeoxysTutorLearnset[] =
     TUTOR(MOVE_ROCK_SMASH),
     TUTOR(MOVE_SIGNAL_BEAM),
     TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_STOMPING_TANTRUM),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
@@ -8130,21 +8132,16 @@ static const u8 sCombeeTutorLearnset[] =
 
 static const u8 sVespiquenTutorLearnset[] =
 {
-     
-    TUTOR(MOVE_SPIKES),
-     
-    TUTOR(MOVE_ENDURE),
-     
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-     
-     
-    TUTOR(MOVE_TAILWIND),
-    TUTOR(MOVE_DUAL_WINGBEAT),
-    TUTOR(MOVE_SIGNAL_BEAM),
     TUTOR(MOVE_CUT),
-    TUTOR(MOVE_FLASH),
     TUTOR(MOVE_DEFOG),
+    TUTOR(MOVE_DUAL_WINGBEAT),
+    TUTOR(MOVE_ENDURE),
+    TUTOR(MOVE_FLASH),
+    TUTOR(MOVE_SIGNAL_BEAM),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAILWIND),
     0xFF,
 };
 
@@ -8253,21 +8250,17 @@ static const u8 sShellosTutorLearnset[] =
 static const u8 sGastrodonTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
-    TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_COUNTER),
-     
-     
-     
-    TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_ENDURE),
-     
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-    TUTOR(MOVE_ROCK_SMASH),
-    TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_FLASH),
-    TUTOR(MOVE_STOMPING_TANTRUM),
+    TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_PAIN_SPLIT),
+    TUTOR(MOVE_ROCK_SMASH),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_STOMPING_TANTRUM),
+    TUTOR(MOVE_STRENGTH),
+    TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -9379,22 +9372,18 @@ static const u8 sDusknoirTutorLearnset[] =
 static const u8 sFroslassTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
-    TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_DREAM_EATER),
-     
-     
-    TUTOR(MOVE_PSYCH_UP),
-     
-    TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_ENDURE),
-     
-    TUTOR(MOVE_ICE_PUNCH),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-    TUTOR(MOVE_SIGNAL_BEAM),
-    TUTOR(MOVE_ICE_FANG),
     TUTOR(MOVE_FLASH),
+    TUTOR(MOVE_ICE_FANG),
+    TUTOR(MOVE_ICE_PUNCH),
+    TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_PAIN_SPLIT),
+    TUTOR(MOVE_PSYCH_UP),
+    TUTOR(MOVE_SIGNAL_BEAM),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
@@ -10585,56 +10574,40 @@ static const u8 sLeavannyTutorLearnset[] =
 static const u8 sVenipedeTutorLearnset[] =
 {
     TUTOR(MOVE_DOUBLE_EDGE),
-    TUTOR(MOVE_SPIKES),
-     
-     
-     
     TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-     
-     
-    TUTOR(MOVE_SIGNAL_BEAM),
     TUTOR(MOVE_ROCK_SMASH),
+    TUTOR(MOVE_SIGNAL_BEAM),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
 static const u8 sWhirlipedeTutorLearnset[] =
 {
     TUTOR(MOVE_DOUBLE_EDGE),
-    TUTOR(MOVE_SPIKES),
-     
-     
-     
     TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-     
-     
-    TUTOR(MOVE_SIGNAL_BEAM),
     TUTOR(MOVE_ROCK_SMASH),
+    TUTOR(MOVE_SIGNAL_BEAM),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
 static const u8 sScolipedeTutorLearnset[] =
 {
-    TUTOR(MOVE_SPIKES),
-    TUTOR(MOVE_DOUBLE_EDGE),
-     
-     
-     
-     
-    TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-     
-     
-    TUTOR(MOVE_SIGNAL_BEAM),
-    TUTOR(MOVE_SUPERPOWER),
-    TUTOR(MOVE_ROCK_SMASH),
-    TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_CUT),
+    TUTOR(MOVE_DOUBLE_EDGE),
+    TUTOR(MOVE_ENDURE),
+    TUTOR(MOVE_ROCK_SMASH),
+    TUTOR(MOVE_SIGNAL_BEAM),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_STOMPING_TANTRUM),
+    TUTOR(MOVE_STRENGTH),
+    TUTOR(MOVE_SUPERPOWER),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
@@ -10823,55 +10796,45 @@ static const u8 sDarmanitanTutorLearnset[] =
 
 static const u8 sMaractusTutorLearnset[] =
 {
-     
-    TUTOR(MOVE_SPIKES),
-     
     TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_GRASSY_GLIDE),
+    TUTOR(MOVE_HYPER_VOICE),
     TUTOR(MOVE_KNOCK_OFF),
     TUTOR(MOVE_SEED_BOMB),
-    TUTOR(MOVE_HYPER_VOICE),
-    TUTOR(MOVE_GRASSY_GLIDE),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
 static const u8 sDwebbleTutorLearnset[] =
 {
-    TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_COUNTER),
-     
-     
-     
+    TUTOR(MOVE_CUT),
     TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-     
     TUTOR(MOVE_KNOCK_OFF),
     TUTOR(MOVE_ROCK_SMASH),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_STRENGTH),
-    TUTOR(MOVE_CUT),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
 static const u8 sCrustleTutorLearnset[] =
 {
-    TUTOR(MOVE_SPIKES),
-    TUTOR(MOVE_COUNTER),
-    TUTOR(MOVE_IRON_HEAD),
-     
-     
-     
-    TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-     
     TUTOR(MOVE_BODY_PRESS),
+    TUTOR(MOVE_COUNTER),
+    TUTOR(MOVE_CUT),
+    TUTOR(MOVE_ENDURE),
+    TUTOR(MOVE_IRON_HEAD),
     TUTOR(MOVE_KNOCK_OFF),
     TUTOR(MOVE_ROCK_SMASH),
-    TUTOR(MOVE_STRENGTH),
-    TUTOR(MOVE_CUT),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_STOMPING_TANTRUM),
+    TUTOR(MOVE_STRENGTH),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
@@ -11047,34 +11010,28 @@ static const u8 sArcheopsTutorLearnset[] =
 
 static const u8 sTrubbishTutorLearnset[] =
 {
-     
-    TUTOR(MOVE_SPIKES),
-     
-     
     TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-    TUTOR(MOVE_SEED_BOMB),
-    TUTOR(MOVE_RECYCLE),
     TUTOR(MOVE_PAIN_SPLIT),
+    TUTOR(MOVE_RECYCLE),
+    TUTOR(MOVE_SEED_BOMB),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
 static const u8 sGarbodorTutorLearnset[] =
 {
-    TUTOR(MOVE_BODY_SLAM),
-    TUTOR(MOVE_SPIKES),
-     
-     
-     
-    TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_BODY_PRESS),
-    TUTOR(MOVE_SEED_BOMB),
-    TUTOR(MOVE_RECYCLE),
-    TUTOR(MOVE_STOMPING_TANTRUM),
+    TUTOR(MOVE_BODY_SLAM),
+    TUTOR(MOVE_ENDURE),
     TUTOR(MOVE_PAIN_SPLIT),
+    TUTOR(MOVE_RECYCLE),
+    TUTOR(MOVE_SEED_BOMB),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_STOMPING_TANTRUM),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
@@ -11837,32 +11794,25 @@ static const u8 sCryogonalTutorLearnset[] =
 static const u8 sShelmetTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
-    TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_DOUBLE_EDGE),
-     
-     
     TUTOR(MOVE_ENDURE),
-     
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SIGNAL_BEAM),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
 static const u8 sAccelgorTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
-    TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_DOUBLE_EDGE),
-     
-     
     TUTOR(MOVE_ENDURE),
-     
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-     
     TUTOR(MOVE_KNOCK_OFF),
     TUTOR(MOVE_SIGNAL_BEAM),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
@@ -12602,50 +12552,40 @@ static const u8 sDelphoxTutorLearnset[] =
 
 static const u8 sFroakieTutorLearnset[] =
 {
-     
-    TUTOR(MOVE_SPIKES),
-     
-     
-    TUTOR(MOVE_ICY_WIND),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-    TUTOR(MOVE_ROCK_SMASH),
-    TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_CUT),
+    TUTOR(MOVE_ICY_WIND),
+    TUTOR(MOVE_ROCK_SMASH),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_STRENGTH),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
 static const u8 sFrogadierTutorLearnset[] =
 {
-     
-    TUTOR(MOVE_SPIKES),
-     
-     
-    TUTOR(MOVE_ICY_WIND),
-    TUTOR(MOVE_ICE_PUNCH),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-    TUTOR(MOVE_ROCK_SMASH),
-    TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_CUT),
+    TUTOR(MOVE_ICE_PUNCH),
+    TUTOR(MOVE_ICY_WIND),
+    TUTOR(MOVE_ROCK_SMASH),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_STRENGTH),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
 static const u8 sGreninjaTutorLearnset[] =
 {
-     
-    TUTOR(MOVE_SPIKES),
-    TUTOR(MOVE_SPIKES),
-     
-     
-    TUTOR(MOVE_ICY_WIND),
-    TUTOR(MOVE_ICE_PUNCH),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-    TUTOR(MOVE_HYDRO_CANNON),
-    TUTOR(MOVE_ROCK_SMASH),
-    TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_CUT),
+    TUTOR(MOVE_HYDRO_CANNON),
+    TUTOR(MOVE_ICE_PUNCH),
+    TUTOR(MOVE_ICY_WIND),
+    TUTOR(MOVE_ROCK_SMASH),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_STRENGTH),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
@@ -13420,18 +13360,16 @@ static const u8 sGoodraTutorLearnset[] =
 
 static const u8 sKlefkiTutorLearnset[] =
 {
-    TUTOR(MOVE_SPIKES),
-     
-    TUTOR(MOVE_PSYCH_UP),
-     
-    TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-    TUTOR(MOVE_RECYCLE),
     TUTOR(MOVE_CUT),
-    TUTOR(MOVE_FOUL_PLAY),
     TUTOR(MOVE_DEFOG),
+    TUTOR(MOVE_ENDURE),
+    TUTOR(MOVE_FOUL_PLAY),
+    TUTOR(MOVE_PSYCH_UP),
+    TUTOR(MOVE_RECYCLE),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_STEEL_BEAM),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
@@ -13649,18 +13587,14 @@ static const u8 sZygardeTutorLearnset[] =
 
 static const u8 sDiancieTutorLearnset[] =
 {
- 
-    TUTOR(MOVE_SPIKES),
-     
-     
-    TUTOR(MOVE_PSYCH_UP),
-     
-    TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_BODY_PRESS),
+    TUTOR(MOVE_ENDURE),
     TUTOR(MOVE_FLASH),
     TUTOR(MOVE_HEAL_BELL),
+    TUTOR(MOVE_PSYCH_UP),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
@@ -14409,10 +14343,10 @@ static const u8 sPassimianTutorLearnset[] =
 
 static const u8 sWimpodTutorLearnset[] =
 {
-    TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_SWAGGER),
     0xFF,
 };
 
@@ -14966,20 +14900,17 @@ static const u8 sPoipoleTutorLearnset[] =
 
 static const u8 sNaganadelTutorLearnset[] =
 {
-     
-    TUTOR(MOVE_SPIKES),
-     
-    TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SLEEP_TALK),
-     
-    TUTOR(MOVE_DRACO_METEOR),
-    TUTOR(MOVE_OUTRAGE),
-    TUTOR(MOVE_TAILWIND),
-    TUTOR(MOVE_DUAL_WINGBEAT),
-    TUTOR(MOVE_SIGNAL_BEAM),
-    TUTOR(MOVE_DRAGON_PULSE),
-    TUTOR(MOVE_HEAT_WAVE),
     TUTOR(MOVE_BREAKING_SWIPE),
+    TUTOR(MOVE_DRACO_METEOR),
+    TUTOR(MOVE_DRAGON_PULSE),
+    TUTOR(MOVE_DUAL_WINGBEAT),
+    TUTOR(MOVE_ENDURE),
+    TUTOR(MOVE_HEAT_WAVE),
+    TUTOR(MOVE_OUTRAGE),
+    TUTOR(MOVE_SIGNAL_BEAM),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
+    TUTOR(MOVE_TAILWIND),
     0xFF,
 };
 
@@ -15435,51 +15366,39 @@ static const u8 sBoltundTutorLearnset[] =
 
 static const u8 sRolycolyTutorLearnset[] =
 {
-     
-    TUTOR(MOVE_SPIKES),
-    TUTOR(MOVE_IRON_HEAD),
-     
-     
     TUTOR(MOVE_ENDURE),
-     
+    TUTOR(MOVE_IRON_HEAD),
     TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
     0xFF,
 };
 
 static const u8 sCarkolTutorLearnset[] =
 {
-     
-    TUTOR(MOVE_SPIKES),
-    TUTOR(MOVE_IRON_HEAD),
-     
-     
-    TUTOR(MOVE_ENDURE),
-     
-    TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_BODY_PRESS),
+    TUTOR(MOVE_ENDURE),
     TUTOR(MOVE_HEAT_WAVE),
     TUTOR(MOVE_HIGH_HORSEPOWER),
-	TUTOR(MOVE_SCORCHING_SANDS),
+    TUTOR(MOVE_IRON_HEAD),
+    TUTOR(MOVE_SCORCHING_SANDS),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
     0xFF,
 };
 
 static const u8 sCoalossalTutorLearnset[] =
 {
-    TUTOR(MOVE_MEGA_KICK),
-    TUTOR(MOVE_SPIKES),
-    TUTOR(MOVE_IRON_HEAD),
-    TUTOR(MOVE_BODY_SLAM),
-     
-     
-     
-    TUTOR(MOVE_ENDURE),
-     
-    TUTOR(MOVE_SLEEP_TALK),
-    TUTOR(MOVE_FIRE_PUNCH),
     TUTOR(MOVE_BODY_PRESS),
+    TUTOR(MOVE_BODY_SLAM),
+    TUTOR(MOVE_ENDURE),
+    TUTOR(MOVE_FIRE_PUNCH),
     TUTOR(MOVE_HEAT_WAVE),
     TUTOR(MOVE_HIGH_HORSEPOWER),
-	TUTOR(MOVE_SCORCHING_SANDS),
+    TUTOR(MOVE_IRON_HEAD),
+    TUTOR(MOVE_MEGA_KICK),
+    TUTOR(MOVE_SCORCHING_SANDS),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SPIKES),
     0xFF,
 };
 
