@@ -25,50 +25,56 @@ MoveTutor_Text_SwaggerTaught: @ 82C6F9E
 	.string "I'll just praise my Pokémon from now\n"
 	.string "on without the swagger.$"
 
-MoveTutor_Text_RolloutTeach: @ 82C6FDB
-	.string "Did you know that you can go from\n"
-	.string "here a long way in that direction\l"
-	.string "without changing direction?\p"
-	.string "I might even be able to roll\n"
-	.string "that way.\p"
-	.string "Do you think your Pokémon will\n"
-	.string "want to roll, too?\p"
-	.string "I can teach the move Rollout to\n"
-	.string "a Pokémon of yours, in exchange\l"
-	.string "of a Heart Scale.$"
+MoveTutor_Text_PsychicFangsTeach: @ 82C6FDB
+    	.string "Did you know that with enough\n"
+    	.string "willpower, you can chew through\n"
+    	.string "anything?\p"
+    	.string "Take me for example, I was born\n"
+    	.string "with no teeth, but I have honed my\n"
+    	.string "psychic skill to use Psychic Fangs\l"
+    	.string "to chew through anything.\p"
+    	.string "Speaking of which, do you want me\n"
+    	.string "to teach one of your Pokémon the\n"
+    	.string "move Psychic Fangs?\p"
+    	.string "But it'll cost you.$"
 
-MoveTutor_Text_RolloutDeclined: @ 82C70C4
-	.string "You don't need to be shy about it.\n"
-	.string "Let's roll!$"
+MoveTutor_Text_PsychicFangsDeclined: @ 82C70C4
+    	.string "No matter.\n"
+    	.string "You can come back later if you\n"
+    	.string "change your mind.$"
 
-MoveTutor_Text_RolloutWhichMon: @ 82C70F3
-	.string "Ehehe, sure thing! It'd be great if\n"
-	.string "the Pokémon looked like me.$"
+MoveTutor_Text_PsychicFangsWhichMon: @ 82C70F3
+    	.string "Alright then.\n"
+    	.string "Which one of your Pokémon needs\n"
+    	.string "a pair of psychic teeth?$"
 
-MoveTutor_Text_RolloutTaught: @ 82C7133
-	.string "Rolling around in the grass makes me\n"
-	.string "happy. Come on, let's roll!$"
+MoveTutor_Text_PsychicFangsTaught: @ 82C7133
+    	.string "Now your Pokémon wouldn't have any\n"
+    	.string "trouble chewing through hard stuff.$"
 
-MoveTutor_Text_FuryCutterTeach: @ 82C7174
-	.string "There's a move that gets stronger\n"
-	.string "when you keep using it in a row.\p"
-	.string "It's a Bug-type move, and it is\n"
-	.string "wickedly cool.\p"
-	.string "It's called Fury Cutter.\n"
-	.string "I can teach the move to a Pokémon\n"
-	.string "of yours, in exchange of a Heart\l"
-	.string "Scale.$"
+MoveTutor_Text_CrunchTeach: @ 82C7174
+    	.string "When life gives you teeth, you use\n"
+    	.string "it to bite everything.\p"
+    	.string "I use my teeth like I use my hand.\n"
+    	.string "It made my teeth stronger, and I can\p"
+    	.string "make your Pokémon's teeth stronger\n"
+    	.string "with the move Crunch.\p"
+    	.string "I can teach one of your Pokémon\n"
+    	.string "Crunch for a Heart Scale.$"
 
-MoveTutor_Text_FuryCutterDeclined: @ 82C7221
-	.string "We're not on the same wavelength.$"
+MoveTutor_Text_CrunchDeclined: @ 82C7221
+	.string "No?\n"
+    	.string "Do you want your Pokémon to get\n"
+    	.string "cavities?$"
 
-MoveTutor_Text_FuryCutterWhichMon: @ 82C7243
-	.string "Yay!\n"
+MoveTutor_Text_CrunchWhichMon: @ 82C7243
+	.string "Yes!\n"
 	.string "Show me which Pokémon I should teach.$"
 
-MoveTutor_Text_FuryCutterTaught: @ 82C726E
-	.string "I get a thrill watching to see if\n"
-	.string "the move keeps hitting in succession!$"
+MoveTutor_Text_CrunchTaught: @ 82C726E
+    	.string "Haha!\n"
+    	.string "Now your Pokémon will never get\n"
+    	.string "cavities.$"
 
 MoveTutor_MimicTeach: @ 82C72B6
 	.string "Ah, young one!\p"
@@ -94,31 +100,28 @@ MoveTutor_Text_MimicTaught: @ 82C73F6
 	.string "Could you execute it to perfection\n"
 	.string "as well as me…?$"
 
-MoveTutor_Text_MetronomeTeach: @ 82C7449
-	.string "I want all sorts of things!\n"
-	.string "But I used up my allowance…\p"
-	.string "Wouldn't it be nice if there were\n"
-	.string "a spell that made money appear when\l"
-	.string "you waggle a finger?\p"
-	.string "If you want, I can teach your Pokémon\n"
-	.string "the move Metronome for a Heart Scale.\p"
-	.string "Money won't appear, but your Pokémon\l"
-	.string "will waggle a finger. Yes?$"
+MoveTutor_Text_AuroraBeamTeach: @ 82C7449
+    	.string "Interesting observation.\n"
+    	.string "While researching the Aurora Borealis\l"
+    	.string "up in the Galar region, I noticed that\p"
+    	.string "certain Electric type Pokémon also\n"
+    	.string "learn the move Aurora Beam.\p"
+    	.string "Would you like me to teach that move\n"
+    	.string "to one of your Pokémon?$"
 
-MoveTutor_Text_MetronomeDeclined: @ 82C7556
+MoveTutor_Text_AuroraBeamDeclined: @ 82C7556
 	.string "Okay. I'll be here if you change\n"
 	.string "your mind.$"
 
-MoveTutor_Text_MetronomeWhichMon: @ 82C7582
+MoveTutor_Text_AuroraBeamWhichMon: @ 82C7582
 	.string "Okay! I'll teach it!\n"
 	.string "Which Pokémon should I teach?$"
 
-MoveTutor_Text_MetronomeTaught: @ 82C75B5
-	.string "When a Pokémon waggles its finger\n"
-	.string "like a Metronome, all sorts of nice\l"
-	.string "things happen.\p"
-	.string "Wouldn't it be nice if we could\l"
-	.string "use it, too?$"
+MoveTutor_Text_AuroraBeamTaught: @ 82C75B5
+    	.string "Excellent.\n"
+    	.string "I hope this will help us into further\n"
+    	.string "research on how certain Electric type\p"
+    	.string "Pokémon adapt to cold climates.$"
 
 MoveTutor_Text_SleepTalkTeach: @ 82C7637
 	.string "Humph! My wife relies on Hidden\n"
@@ -143,32 +146,36 @@ MoveTutor_Text_SleepTalkTaught: @ 82C775A
 	.string "I would be happy if I got it right\n"
 	.string "even as I Sleep Talk…$"
 
-MoveTutor_Text_SubstituteTeach: @ 82C77C6
-	.string "When I see the wide world from up\n"
-	.string "here on the roof…\p"
-	.string "I think about how nice it would be\n"
-	.string "if there were more than just one me\l"
-	.string "so I could enjoy all sorts of lives.\p"
-	.string "Of course it's not possible.\n"
-	.string "Giggle…\p"
-	.string "I know! Would you be interested in\n"
-	.string "having a Pokémon learn Substitute\l"
-	.string "in Exchange of a Heart Scale?$"
+MoveTutor_Text_ZenHeadbuttTeach: @ 82C77C6
+    	.string "\"Mind over matter Dr. Angelo.\n"
+    	.string "Not a miracle...... a fact.\" A favorite\n"
+    	.string "quote from my favorite movie\p"
+    	.string "The Lawnmower Man.\n"
+    	.string "I was so inspired by the character Jobe\n"
+    	.string "that I banged my head on the wall\n"
+    	.string "multiple times in the hopes of reaching\l"
+    	.string "his level of intellect.\p"
+    	.string "While I haven't got any result, but I\n"
+    	.string "did learn how to teach your Pokémon\l"
+    	.string "the move Zen Headbutt.\p"
+    	.string "Should I teach this move to one of your\n"
+    	.string "Pokémon?$"
 
-MoveTutor_Text_SubstituteDeclined: @ 82C78D1
-	.string "Oh, no?\p"
-	.string "A Pokémon can make a copy of\n"
-	.string "itself using it, you know.$"
+MoveTutor_Text_ZenHeadbuttDeclined: @ 82C78D1
+    	.string "So, you don't want me to teach this\n"
+    	.string "move to your Pokémon?\p"
+    	.string "You're denying them from reaching\n"
+    	.string "their higher intellect.$"
 
-MoveTutor_Text_SubstituteWhichMon: @ 82C7911
-	.string "Giggle…\n"
-	.string "Which Pokémon do you want me to\l"
-	.string "teach Substitute?$"
+MoveTutor_Text_ZenHeadbuttWhichMon: @ 82C7911
+    	.string "Smart choice.\n"
+    	.string "Which Pokémon do you want me to\n"
+    	.string "unlock their higher intellectual\n"
+    	.string "potential?$"
 
-MoveTutor_Text_SubstituteTaught: @ 82C794B
-	.string "We human beings should enjoy our\n"
-	.string "own lives to the utmost!\p"
-	.string "I hope you'll get that way, too!$"
+MoveTutor_Text_ZenHeadbuttTaught: @ 82C794B
+    	.string "\"THIS UNIVERSE IS MINE!!!!!\n"
+    	.string "I AM COB HERE!!!!\"$"
 
 MoveTutor_Text_DynamicPunchTeach: @ 82C79A6
 	.string "I can't do this anymore!\p"
