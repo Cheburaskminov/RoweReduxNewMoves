@@ -36,12 +36,12 @@ MoveTutor_EventScript_SwaggerTaught:: @ 82C7F74
 	release
 	end
 
-MauvilleCity_EventScript_RolloutTutor:: @ 82C7F7E
+MauvilleCity_EventScript_PsychicFangsTutor:: @ 82C7F7E
 	lock
 	faceplayer
-	msgbox MoveTutor_Text_RolloutTeach, MSGBOX_YESNO
+	msgbox MoveTutor_Text_PsychicFangsTeach, MSGBOX_YESNO
 	compare VAR_RESULT, NO
-	goto_if_eq MoveTutor_EventScript_RolloutDeclined
+	goto_if_eq MoveTutor_EventScript_PsychicFangsDeclined
 	//
 	checkitem ITEM_HEART_SCALE, 1
 	compare VAR_RESULT, FALSE
@@ -49,32 +49,32 @@ MauvilleCity_EventScript_RolloutTutor:: @ 82C7F7E
 	//
 	call MoveTutor_EventScript_CanOnlyBeLearnedOnce
 	compare VAR_RESULT, NO
-	goto_if_eq MoveTutor_EventScript_RolloutDeclined
-	msgbox MoveTutor_Text_RolloutWhichMon, MSGBOX_DEFAULT
-	setvar VAR_0x8005, TUTOR_MOVE_ROLLOUT
+	goto_if_eq MoveTutor_EventScript_PsychicFangsDeclined
+	msgbox MoveTutor_Text_PsychicFangsWhichMon, MSGBOX_DEFAULT
+	setvar VAR_0x8005, TUTOR_MOVE_PSYCHIC_FANGS
 	call MoveTutor_EventScript_OpenPartyMenu
 	compare VAR_RESULT, 0
-	goto_if_eq MoveTutor_EventScript_RolloutDeclined
+	goto_if_eq MoveTutor_EventScript_PsychicFangsDeclined
 	removeitem ITEM_HEART_SCALE
-	goto MoveTutor_EventScript_RolloutTaught
+	goto MoveTutor_EventScript_PsychicFangsTaught
 	end
 
-MoveTutor_EventScript_RolloutDeclined:: @ 82C7FD2
-	msgbox MoveTutor_Text_RolloutDeclined, MSGBOX_DEFAULT
+MoveTutor_EventScript_PsychicFangsDeclined:: @ 82C7FD2
+	msgbox MoveTutor_Text_PsychicFangsDeclined, MSGBOX_DEFAULT
 	release
 	end
 
-MoveTutor_EventScript_RolloutTaught:: @ 82C7FDC
-	msgbox MoveTutor_Text_RolloutTaught, MSGBOX_DEFAULT
+MoveTutor_EventScript_PsychicFangsTaught:: @ 82C7FDC
+	msgbox MoveTutor_Text_PsychicFangsTaught, MSGBOX_DEFAULT
 	release
 	end
 
-VerdanturfTown_PokemonCenter_1F_EventScript_FuryCutterTutor:: @ 82C7FE6
+VerdanturfTown_PokemonCenter_1F_EventScript_CrunchTutor:: @ 82C7FE6
 	lock
 	faceplayer
-	msgbox MoveTutor_Text_FuryCutterTeach, MSGBOX_YESNO
+	msgbox MoveTutor_Text_CrunchTeach, MSGBOX_YESNO
 	compare VAR_RESULT, NO
-	goto_if_eq MoveTutor_EventScript_FuryCutterDeclined
+	goto_if_eq MoveTutor_EventScript_CrunchDeclined
 	//
 	checkitem ITEM_HEART_SCALE, 1
 	compare VAR_RESULT, FALSE
@@ -82,23 +82,23 @@ VerdanturfTown_PokemonCenter_1F_EventScript_FuryCutterTutor:: @ 82C7FE6
 	//
 	call MoveTutor_EventScript_CanOnlyBeLearnedOnce
 	compare VAR_RESULT, NO
-	goto_if_eq MoveTutor_EventScript_FuryCutterDeclined
-	msgbox MoveTutor_Text_FuryCutterWhichMon, MSGBOX_DEFAULT
-	setvar VAR_0x8005, TUTOR_MOVE_FURY_CUTTER
+	goto_if_eq MoveTutor_EventScript_CrunchDeclined
+	msgbox MoveTutor_Text_CrunchWhichMon, MSGBOX_DEFAULT
+	setvar VAR_0x8005, TUTOR_MOVE_CRUNCH
 	call MoveTutor_EventScript_OpenPartyMenu
 	compare VAR_RESULT, 0
-	goto_if_eq MoveTutor_EventScript_FuryCutterDeclined
+	goto_if_eq MoveTutor_EventScript_CrunchDeclined
 	removeitem ITEM_HEART_SCALE
-	goto MoveTutor_EventScript_FuryCutterTaught
+	goto MoveTutor_EventScript_CrunchTaught
 	end
 
-MoveTutor_EventScript_FuryCutterDeclined:: @ 82C803A
-	msgbox MoveTutor_Text_FuryCutterDeclined, MSGBOX_DEFAULT
+MoveTutor_EventScript_CrunchDeclined:: @ 82C803A
+	msgbox MoveTutor_Text_CrunchDeclined, MSGBOX_DEFAULT
 	release
 	end
 
-MoveTutor_EventScript_FuryCutterTaught:: @ 82C8044
-	msgbox MoveTutor_Text_FuryCutterTaught, MSGBOX_DEFAULT
+MoveTutor_EventScript_CrunchTaught:: @ 82C8044
+	msgbox MoveTutor_Text_CrunchTaught, MSGBOX_DEFAULT
 	release
 	end
 
@@ -135,12 +135,12 @@ MoveTutor_EventScript_MimicTaught:: @ 82C80AC
 	release
 	end
 
-FallarborTown_Mart_EventScript_MetronomeTutor:: @ 82C80B6
+FallarborTown_Mart_EventScript_AuroraBeamTutor:: @ 82C80B6
 	lock
 	faceplayer
-	msgbox MoveTutor_Text_MetronomeTeach, MSGBOX_YESNO
+	msgbox MoveTutor_Text_AuroraBeamTeach, MSGBOX_YESNO
 	compare VAR_RESULT, NO
-	goto_if_eq MoveTutor_EventScript_MetronomeDeclined
+	goto_if_eq MoveTutor_EventScript_AuroraBeamDeclined
 	//
 	checkitem ITEM_HEART_SCALE, 1
 	compare VAR_RESULT, FALSE
@@ -148,23 +148,23 @@ FallarborTown_Mart_EventScript_MetronomeTutor:: @ 82C80B6
 	//
 	call MoveTutor_EventScript_CanOnlyBeLearnedOnce
 	compare VAR_RESULT, NO
-	goto_if_eq MoveTutor_EventScript_MetronomeDeclined
-	msgbox MoveTutor_Text_MetronomeWhichMon, MSGBOX_DEFAULT
-	setvar VAR_0x8005, TUTOR_MOVE_METRONOME
+	goto_if_eq MoveTutor_EventScript_AuroraBeamDeclined
+	msgbox MoveTutor_Text_AuroraBeamWhichMon, MSGBOX_DEFAULT
+	setvar VAR_0x8005, TUTOR_MOVE_AURORA_BEAM
 	call MoveTutor_EventScript_OpenPartyMenu
 	compare VAR_RESULT, 0
-	goto_if_eq MoveTutor_EventScript_MetronomeDeclined
+	goto_if_eq MoveTutor_EventScript_AuroraBeamDeclined
 	removeitem ITEM_HEART_SCALE
-	goto MoveTutor_EventScript_MetronomeTaught
+	goto MoveTutor_EventScript_AuroraBeamTaught
 	end
 
-MoveTutor_EventScript_MetronomeDeclined:: @ 82C810A
-	msgbox MoveTutor_Text_MetronomeDeclined, MSGBOX_DEFAULT
+MoveTutor_EventScript_AuroraBeamDeclined:: @ 82C810A
+	msgbox MoveTutor_Text_AuroraBeamDeclined, MSGBOX_DEFAULT
 	release
 	end
 
-MoveTutor_EventScript_MetronomeTaught:: @ 82C8114
-	msgbox MoveTutor_Text_MetronomeTaught, MSGBOX_DEFAULT
+MoveTutor_EventScript_AuroraBeamTaught:: @ 82C8114
+	msgbox MoveTutor_Text_AuroraBeamTaught, MSGBOX_DEFAULT
 	release
 	end
 
@@ -201,12 +201,12 @@ MoveTutor_EventScript_SleepTalkTaught:: @ 82C817C
 	release
 	end
 
-LilycoveCity_DepartmentStoreRooftop_EventScript_SubstituteTutor:: @ 82C8186
+LilycoveCity_DepartmentStoreRooftop_EventScript_ZenHeadbuttTutor:: @ 82C8186
 	lock
 	faceplayer
-	msgbox MoveTutor_Text_SubstituteTeach, MSGBOX_YESNO
+	msgbox MoveTutor_Text_ZenHeadbuttTeach, MSGBOX_YESNO
 	compare VAR_RESULT, NO
-	goto_if_eq MoveTutor_EventScript_SubstituteDeclined
+	goto_if_eq MoveTutor_EventScript_ZenHeadbuttDeclined
 	//
 	checkitem ITEM_HEART_SCALE, 1
 	compare VAR_RESULT, FALSE
@@ -214,23 +214,23 @@ LilycoveCity_DepartmentStoreRooftop_EventScript_SubstituteTutor:: @ 82C8186
 	//
 	call MoveTutor_EventScript_CanOnlyBeLearnedOnce
 	compare VAR_RESULT, NO
-	goto_if_eq MoveTutor_EventScript_SubstituteDeclined
-	msgbox MoveTutor_Text_SubstituteWhichMon, MSGBOX_DEFAULT
-	setvar VAR_0x8005, TUTOR_MOVE_SUBSTITUTE
+	goto_if_eq MoveTutor_EventScript_ZenHeadbuttDeclined
+	msgbox MoveTutor_Text_ZenHeadbuttWhichMon, MSGBOX_DEFAULT
+	setvar VAR_0x8005, TUTOR_MOVE_ZEN_HEADBUTT
 	call MoveTutor_EventScript_OpenPartyMenu
 	compare VAR_RESULT, 0
-	goto_if_eq MoveTutor_EventScript_SubstituteDeclined
+	goto_if_eq MoveTutor_EventScript_ZenHeadbuttDeclined
 	removeitem ITEM_HEART_SCALE
-	goto MoveTutor_EventScript_SubstituteTaught
+	goto MoveTutor_EventScript_ZenHeadbuttTaught
 	end
 
-MoveTutor_EventScript_SubstituteDeclined:: @ 82C81DA
-	msgbox MoveTutor_Text_SubstituteDeclined, MSGBOX_DEFAULT
+MoveTutor_EventScript_ZenHeadbuttDeclined:: @ 82C81DA
+	msgbox MoveTutor_Text_ZenHeadbuttDeclined, MSGBOX_DEFAULT
 	release
 	end
 
-MoveTutor_EventScript_SubstituteTaught:: @ 82C81E4
-	msgbox MoveTutor_Text_SubstituteTaught, MSGBOX_DEFAULT
+MoveTutor_EventScript_ZenHeadbuttTaught:: @ 82C81E4
+	msgbox MoveTutor_Text_ZenHeadbuttTaught, MSGBOX_DEFAULT
 	release
 	end
 
