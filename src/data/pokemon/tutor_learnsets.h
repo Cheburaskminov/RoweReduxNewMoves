@@ -115,6 +115,7 @@ static const u8 sBulbasaurTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),  
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -134,6 +135,7 @@ static const u8 sIvysaurTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -155,6 +157,7 @@ static const u8 sVenusaurTutorLearnset[] =
     TUTOR(MOVE_STOMPING_TANTRUM),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -181,6 +184,7 @@ static const u8 sCharmanderTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_PUNCH),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -207,6 +211,7 @@ static const u8 sCharmeleonTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_PUNCH),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -239,6 +244,7 @@ static const u8 sCharizardTutorLearnset[] =
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
     TUTOR(MOVE_THUNDER_PUNCH),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -262,6 +268,7 @@ static const u8 sSquirtleTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -287,6 +294,7 @@ static const u8 sWartortleTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -316,6 +324,7 @@ static const u8 sBlastoiseTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -842,6 +851,7 @@ static const u8 sVulpixTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -861,6 +871,7 @@ static const u8 sNinetalesTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -999,6 +1010,7 @@ static const u8 sVileplumeTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SOLAR_BLADE),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -1300,6 +1312,7 @@ static const u8 sPoliwagTutorLearnset[] =
     TUTOR(MOVE_MIMIC),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -1319,6 +1332,7 @@ static const u8 sPoliwhirlTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -1343,6 +1357,7 @@ static const u8 sPoliwrathTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -1517,6 +1532,7 @@ static const u8 sBellsproutTutorLearnset[] =
     TUTOR(MOVE_SEED_BOMB),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -1533,6 +1549,7 @@ static const u8 sWeepinbellTutorLearnset[] =
     TUTOR(MOVE_SEED_BOMB),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -1549,6 +1566,7 @@ static const u8 sVictreebelTutorLearnset[] =
     TUTOR(MOVE_SEED_BOMB),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -1582,6 +1600,7 @@ static const u8 sTentacruelTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TOXIC_SPIKES),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -1713,6 +1732,7 @@ static const u8 sSlowpokeTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRICK),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -1744,6 +1764,7 @@ static const u8 sSlowbroTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRICK),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -1849,6 +1870,7 @@ static const u8 sSeelTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRIPLE_AXEL),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -1870,6 +1892,7 @@ static const u8 sDewgongTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRIPLE_AXEL),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -1945,6 +1968,7 @@ static const u8 sCloysterTutorLearnset[] =
     TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TOXIC_SPIKES),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -2510,6 +2534,7 @@ static const u8 sHorseaTutorLearnset[] =
     TUTOR(MOVE_SIGNAL_BEAM),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -2527,6 +2552,7 @@ static const u8 sSeadraTutorLearnset[] =
     TUTOR(MOVE_SIGNAL_BEAM),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -2815,6 +2841,7 @@ static const u8 sLaprasTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -2836,6 +2863,7 @@ static const u8 sEeveeTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -2856,6 +2884,7 @@ static const u8 sVaporeonTutorLearnset[] =
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -2877,6 +2906,7 @@ static const u8 sJolteonTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_FANG),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -2897,6 +2927,7 @@ static const u8 sFlareonTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -3076,6 +3107,7 @@ static const u8 sArticunoTutorLearnset[] =
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
     TUTOR(MOVE_TRIPLE_AXEL),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -3094,6 +3126,7 @@ static const u8 sZapdosTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -3110,6 +3143,7 @@ static const u8 sMoltresTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -3145,6 +3179,7 @@ static const u8 sDragonairTutorLearnset[] =
     TUTOR(MOVE_OUTRAGE),
     TUTOR(MOVE_SLEEP_TALK), 
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -3179,6 +3214,7 @@ static const u8 sDragoniteTutorLearnset[] =
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
     TUTOR(MOVE_THUNDER_PUNCH),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -3211,6 +3247,7 @@ static const u8 sMewtwoTutorLearnset[] =
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_PUNCH),
     TUTOR(MOVE_TRICK),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
@@ -3281,6 +3318,7 @@ static const u8 sMewTutorLearnset[] =
     TUTOR(MOVE_TOXIC_SPIKES),
     TUTOR(MOVE_TRICK),
     TUTOR(MOVE_TRIPLE_AXEL),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -3345,6 +3383,7 @@ static const u8 sMeganiumTutorLearnset[] =
     TUTOR(MOVE_STOMPING_TANTRUM),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
@@ -3943,6 +3982,7 @@ static const u8 sBellossomTutorLearnset[] =
     TUTOR(MOVE_SOLAR_BLADE),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRIPLE_AXEL),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -4035,6 +4075,7 @@ static const u8 sPolitoedTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -4116,6 +4157,7 @@ static const u8 sSunkernTutorLearnset[] =
     TUTOR(MOVE_SEED_BOMB),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -4130,6 +4172,7 @@ static const u8 sSunfloraTutorLearnset[] =
     TUTOR(MOVE_SEED_BOMB),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -4214,6 +4257,7 @@ static const u8 sEspeonTutorLearnset[] =
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRICK),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
@@ -4235,6 +4279,7 @@ static const u8 sUmbreonTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -4284,6 +4329,7 @@ static const u8 sSlowkingTutorLearnset[] =
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_PUNCH),
     TUTOR(MOVE_TRICK),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -4848,6 +4894,7 @@ static const u8 sDelibirdTutorLearnset[] =
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
     TUTOR(MOVE_TRIPLE_AXEL),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -4959,6 +5006,7 @@ static const u8 sKingdraTutorLearnset[] =
     TUTOR(MOVE_SIGNAL_BEAM),
     TUTOR(MOVE_SLEEP_TALK), 
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -5233,6 +5281,7 @@ static const u8 sRaikouTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_FANG),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -5255,6 +5304,7 @@ static const u8 sEnteiTutorLearnset[] =
     TUTOR(MOVE_STOMPING_TANTRUM),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -5276,6 +5326,7 @@ static const u8 sSuicuneTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -5382,6 +5433,7 @@ static const u8 sLugiaTutorLearnset[] =
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
     TUTOR(MOVE_TRICK),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -5409,6 +5461,7 @@ static const u8 sHoOhTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
@@ -5431,6 +5484,7 @@ static const u8 sCelebiTutorLearnset[] =
     TUTOR(MOVE_SOLAR_BLADE),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRICK),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
@@ -5643,6 +5697,7 @@ static const u8 sSwampertTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -5790,6 +5845,7 @@ static const u8 sLotadTutorLearnset[] =
     TUTOR(MOVE_SEED_BOMB),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -5817,6 +5873,7 @@ static const u8 sLombreTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_PUNCH),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -5845,6 +5902,7 @@ static const u8 sLudicoloTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_PUNCH),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -5887,6 +5945,7 @@ static const u8 sNuzleafTutorLearnset[] =
     TUTOR(MOVE_SOLAR_BLADE),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -5915,6 +5974,7 @@ static const u8 sShiftryTutorLearnset[] =
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
     TUTOR(MOVE_TOXIC_SPIKES),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -5978,6 +6038,7 @@ static const u8 sPelipperTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -6096,6 +6157,7 @@ static const u8 sMasquerainTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -6813,6 +6875,7 @@ static const u8 sRoseliaTutorLearnset[] =
     TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TOXIC_SPIKES),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -6914,6 +6977,7 @@ static const u8 sWailmerTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -6934,6 +6998,7 @@ static const u8 sWailordTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -6998,6 +7063,7 @@ static const u8 sTorkoalTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
@@ -7319,6 +7385,7 @@ static const u8 sLunatoneTutorLearnset[] =
     TUTOR(MOVE_STOMPING_TANTRUM),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
@@ -7343,6 +7410,7 @@ static const u8 sSolrockTutorLearnset[] =
     TUTOR(MOVE_STOMPING_TANTRUM),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
@@ -7378,6 +7446,7 @@ static const u8 sWhiscashTutorLearnset[] =
     TUTOR(MOVE_STOMPING_TANTRUM),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -7565,6 +7634,7 @@ static const u8 sMiloticTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRIPLE_AXEL),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -7582,6 +7652,7 @@ static const u8 sCastformTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -7786,6 +7857,7 @@ static const u8 sSnoruntTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -7806,6 +7878,7 @@ static const u8 sGlalieTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK), 
     TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -8202,6 +8275,7 @@ static const u8 sLatiasTutorLearnset[] =
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
     TUTOR(MOVE_TRICK),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -8231,6 +8305,7 @@ static const u8 sLatiosTutorLearnset[] =
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
     TUTOR(MOVE_TRICK),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -8514,6 +8589,7 @@ static const u8 sPiplupTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRIPLE_AXEL),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -8533,6 +8609,7 @@ static const u8 sPrinplupTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRIPLE_AXEL),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -8558,6 +8635,7 @@ static const u8 sEmpoleonTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRIPLE_AXEL),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -8730,6 +8808,7 @@ static const u8 sBudewTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -8746,6 +8825,7 @@ static const u8 sRoseradeTutorLearnset[] =
     TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TOXIC_SPIKES),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -8952,16 +9032,13 @@ static const u8 sFloatzelTutorLearnset[] =
 
 static const u8 sCherubiTutorLearnset[] =
 {
-     
-     
-     
     TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-     
-    TUTOR(MOVE_SEED_BOMB),
     TUTOR(MOVE_FLASH),
     TUTOR(MOVE_GRASSY_GLIDE),
+    TUTOR(MOVE_SEED_BOMB),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -8974,6 +9051,7 @@ static const u8 sCherrimTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SOLAR_BLADE),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -9008,6 +9086,7 @@ static const u8 sGastrodonTutorLearnset[] =
     TUTOR(MOVE_STOMPING_TANTRUM),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -9051,6 +9130,7 @@ static const u8 sDrifloonTutorLearnset[] =
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
     TUTOR(MOVE_TRICK),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -9073,6 +9153,7 @@ static const u8 sDrifblimTutorLearnset[] =
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
     TUTOR(MOVE_TRICK),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -9299,6 +9380,7 @@ static const u8 sBronzongTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRICK),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
@@ -9536,6 +9618,7 @@ static const u8 sHippopotasTutorLearnset[] =
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_FANG),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -9559,6 +9642,7 @@ static const u8 sHippowdonTutorLearnset[] =
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_FANG),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -9712,6 +9796,7 @@ static const u8 sSnoverTutorLearnset[] =
     TUTOR(MOVE_SEED_BOMB),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -9734,6 +9819,7 @@ static const u8 sAbomasnowTutorLearnset[] =
     TUTOR(MOVE_STOMPING_TANTRUM),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -9876,6 +9962,7 @@ static const u8 sElectivireTutorLearnset[] =
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_PUNCH),
     TUTOR(MOVE_VOLT_TACKLE),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -9895,6 +9982,7 @@ static const u8 sMagmortarTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_PUNCH),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -9959,6 +10047,7 @@ static const u8 sLeafeonTutorLearnset[] =
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -9979,6 +10068,7 @@ static const u8 sGlaceonTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRIPLE_AXEL),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -10144,6 +10234,7 @@ static const u8 sFroslassTutorLearnset[] =
     TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRICK),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -10384,6 +10475,7 @@ static const u8 sPhioneTutorLearnset[] =
     TUTOR(MOVE_SIGNAL_BEAM),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -10402,6 +10494,7 @@ static const u8 sManaphyTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -11005,6 +11098,7 @@ static const u8 sGigalithTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -11187,48 +11281,41 @@ static const u8 sConkeldurrTutorLearnset[] =
 
 static const u8 sTympoleTutorLearnset[] =
 {
-     
-     
-    TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_ENDURE),
-     
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_HYPER_VOICE),
+    TUTOR(MOVE_ICY_WIND),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
 static const u8 sPalpitoadTutorLearnset[] =
 {
-     
-     
-    TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_ENDURE),
-     
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-    TUTOR(MOVE_ROCK_SMASH),
     TUTOR(MOVE_HYPER_VOICE),
+    TUTOR(MOVE_ICY_WIND),
+    TUTOR(MOVE_ROCK_SMASH),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
 static const u8 sSeismitoadTutorLearnset[] =
 {
-    TUTOR(MOVE_MEGA_KICK),
-     
-     
-     
-    TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_ENDURE),
-     
-    TUTOR(MOVE_ICE_PUNCH),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-    TUTOR(MOVE_KNOCK_OFF),
-    TUTOR(MOVE_ROCK_SMASH),
-    TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_HYPER_VOICE),
+    TUTOR(MOVE_ICE_PUNCH),
+    TUTOR(MOVE_ICY_WIND),
+    TUTOR(MOVE_KNOCK_OFF),
+    TUTOR(MOVE_MEGA_KICK),
+    TUTOR(MOVE_ROCK_SMASH),
+    TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STOMPING_TANTRUM),
+    TUTOR(MOVE_STRENGTH),
+    TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -11430,6 +11517,7 @@ static const u8 sLilligantTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SOLAR_BLADE),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -11567,6 +11655,7 @@ static const u8 sMaractusTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SPIKES),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -12023,6 +12112,7 @@ static const u8 sSwannaTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -12062,6 +12152,7 @@ static const u8 sVanilluxeTutorLearnset[] =
     TUTOR(MOVE_SIGNAL_BEAM),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -13094,6 +13185,7 @@ static const u8 sTornadusTutorLearnset[] =
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -13111,6 +13203,7 @@ static const u8 sThundurusTutorLearnset[] =
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_PUNCH),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
@@ -13137,6 +13230,7 @@ static const u8 sReshiramTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
@@ -13164,6 +13258,7 @@ static const u8 sZekromTutorLearnset[] =
     TUTOR(MOVE_TAILWIND),
     TUTOR(MOVE_THUNDER_FANG),
     TUTOR(MOVE_THUNDER_PUNCH),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
@@ -13183,6 +13278,7 @@ static const u8 sLandorusTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -13206,6 +13302,7 @@ static const u8 sKyuremTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
@@ -13434,6 +13531,7 @@ static const u8 sGreninjaTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TOXIC_SPIKES),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -13541,6 +13639,7 @@ static const u8 sVivillonTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TAILWIND),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -13945,6 +14044,7 @@ static const u8 sClauncherTutorLearnset[] =
     TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -13957,6 +14057,7 @@ static const u8 sClawitzerTutorLearnset[] =
     TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -13980,25 +14081,20 @@ static const u8 sHelioptileTutorLearnset[] =
 
 static const u8 sHelioliskTutorLearnset[] =
 {
-    TUTOR(MOVE_MEGA_KICK),
-    
-     
-     
-    TUTOR(MOVE_PSYCH_UP),
-     
-    TUTOR(MOVE_ENDURE),
-     
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-     
-    TUTOR(MOVE_THUNDER_PUNCH),
-    TUTOR(MOVE_FIRE_PUNCH),
-    TUTOR(MOVE_SIGNAL_BEAM),
+    TUTOR(MOVE_BREAKING_SWIPE),
     TUTOR(MOVE_CUT),
     TUTOR(MOVE_DRAGON_PULSE),
+    TUTOR(MOVE_ENDURE),
+    TUTOR(MOVE_FIRE_PUNCH),
     TUTOR(MOVE_FLASH),
     TUTOR(MOVE_HYPER_VOICE),
-    TUTOR(MOVE_BREAKING_SWIPE),
+    TUTOR(MOVE_MEGA_KICK),
+    TUTOR(MOVE_PSYCH_UP),
+    TUTOR(MOVE_SIGNAL_BEAM),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_THUNDER_PUNCH),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -14074,6 +14170,7 @@ static const u8 sAmauraTutorLearnset[] =
     TUTOR(MOVE_ROCK_SMASH),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -14094,6 +14191,7 @@ static const u8 sAurorusTutorLearnset[] =
     TUTOR(MOVE_ROCK_SMASH),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -14110,6 +14208,7 @@ static const u8 sSylveonTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -14215,6 +14314,7 @@ static const u8 sGoodraTutorLearnset[] =
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_PUNCH),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -14496,6 +14596,7 @@ static const u8 sVolcanionTutorLearnset[] =
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_FANG),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -14635,6 +14736,7 @@ static const u8 sPrimarinaTutorLearnset[] =
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_TRIPLE_AXEL),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -15002,6 +15104,7 @@ static const u8 sFomantisTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -15017,6 +15120,7 @@ static const u8 sLurantisTutorLearnset[] =
     TUTOR(MOVE_SOLAR_BLADE),
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -15039,16 +15143,14 @@ static const u8 sMorelullTutorLearnset[] =
 static const u8 sShiinoticTutorLearnset[] =
 {
     TUTOR(MOVE_DREAM_EATER),
-    
-     
-     
     TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-    TUTOR(MOVE_SIGNAL_BEAM),
-    TUTOR(MOVE_SEED_BOMB),
-    TUTOR(MOVE_RECYCLE),
     TUTOR(MOVE_FLASH),
+    TUTOR(MOVE_RECYCLE),
+    TUTOR(MOVE_SEED_BOMB),
+    TUTOR(MOVE_SIGNAL_BEAM),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -15983,6 +16085,7 @@ static const u8 sRabootTutorLearnset[] =
     TUTOR(MOVE_HEAT_WAVE),
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -15999,28 +16102,25 @@ static const u8 sCinderaceTutorLearnset[] =
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_SCORCHING_SANDS),
     TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
 
 static const u8 sSobbleTutorLearnset[] =
 {
-     
-     
     TUTOR(MOVE_ENDURE),
     TUTOR(MOVE_SLEEP_TALK),
-     
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
 
 static const u8 sDrizzileTutorLearnset[] =
 {
-     
-     
     TUTOR(MOVE_ENDURE),
     TUTOR(MOVE_SLEEP_TALK),
-     
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -16035,6 +16135,7 @@ static const u8 sInteleonTutorLearnset[] =
     TUTOR(MOVE_ICICLE_SPEAR),
     TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -16186,13 +16287,12 @@ static const u8 sGossifleurTutorLearnset[] =
 
 static const u8 sEldegossTutorLearnset[] =
 {
-     
-     
     TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SLEEP_TALK),
-    TUTOR(MOVE_SEED_BOMB),
-    TUTOR(MOVE_HYPER_VOICE),
     TUTOR(MOVE_GRASSY_GLIDE),
+    TUTOR(MOVE_HYPER_VOICE),
+    TUTOR(MOVE_SEED_BOMB),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -16417,6 +16517,7 @@ static const u8 sCramorantTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_TAILWIND),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -16799,6 +16900,7 @@ static const u8 sFrosmothTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_TAILWIND),
     TUTOR(MOVE_TRIPLE_AXEL),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -16830,6 +16932,7 @@ static const u8 sEiscueTutorLearnset[] =
     TUTOR(MOVE_IRON_DEFENSE),
     TUTOR(MOVE_IRON_HEAD),
     TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_WHIRLPOOL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -17336,6 +17439,7 @@ static const u8 sVulpixAlolanTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -17354,6 +17458,7 @@ static const u8 sNinetalesAlolanTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
 
@@ -18011,6 +18116,7 @@ static const u8 sKyuremBlackTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
@@ -18036,6 +18142,7 @@ static const u8 sKyuremWhiteTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_WEATHER_BALL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
