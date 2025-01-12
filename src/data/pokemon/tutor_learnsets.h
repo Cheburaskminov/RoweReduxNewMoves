@@ -4492,6 +4492,7 @@ static const u8 sHeracrossTutorLearnset[] =
     TUTOR(MOVE_IRON_DEFENSE),
     TUTOR(MOVE_KNOCK_OFF),
     TUTOR(MOVE_MIMIC),
+    TUTOR(MOVE_OUTRAGE),
     TUTOR(MOVE_ROCK_BLAST),
     TUTOR(MOVE_ROCK_SMASH),
     TUTOR(MOVE_SEISMIC_TOSS),
@@ -6014,6 +6015,7 @@ static const u8 sVigorothTutorLearnset[] =
     TUTOR(MOVE_KNOCK_OFF),
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_MIMIC),
+    TUTOR(MOVE_OUTRAGE),
     TUTOR(MOVE_ROCK_SMASH),
     TUTOR(MOVE_SEISMIC_TOSS),
     TUTOR(MOVE_SLEEP_TALK),
@@ -6038,6 +6040,7 @@ static const u8 sSlakingTutorLearnset[] =
     TUTOR(MOVE_KNOCK_OFF),
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_MIMIC),
+    TUTOR(MOVE_OUTRAGE),
     TUTOR(MOVE_ROCK_SMASH),
     TUTOR(MOVE_SEISMIC_TOSS),
     TUTOR(MOVE_SLEEP_TALK),
@@ -7152,6 +7155,7 @@ static const u8 sBarboachTutorLearnset[] =
     TUTOR(MOVE_ENDURE),
     TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_MIMIC),
+    TUTOR(MOVE_OUTRAGE),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_WHIRLPOOL),
@@ -7166,6 +7170,7 @@ static const u8 sWhiscashTutorLearnset[] =
     TUTOR(MOVE_ENDURE),
     TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_MIMIC),
+    TUTOR(MOVE_OUTRAGE),
     TUTOR(MOVE_ROCK_SMASH),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SPIKES),
@@ -9132,7 +9137,6 @@ static const u8 sGibleTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
-     
     0xFF,
 };
 
@@ -9152,7 +9156,6 @@ static const u8 sGabiteTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
-     
     0xFF,
 };
 
