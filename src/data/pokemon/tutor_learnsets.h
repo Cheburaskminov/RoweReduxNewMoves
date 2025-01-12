@@ -4326,6 +4326,7 @@ static const u8 sGligarTutorLearnset[] =
     TUTOR(MOVE_DREAM_EATER),
     TUTOR(MOVE_DUAL_WINGBEAT),
     TUTOR(MOVE_ENDURE),
+    TUTOR(MOVE_ICE_FANG),
     TUTOR(MOVE_KNOCK_OFF),
     TUTOR(MOVE_MIMIC),
     TUTOR(MOVE_PSYCHIC_FANGS),
@@ -4628,6 +4629,7 @@ static const u8 sSwinubTutorLearnset[] =
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
     TUTOR(MOVE_ENDURE),
+    TUTOR(MOVE_ICE_FANG),
     TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_MIMIC),
     TUTOR(MOVE_ROCK_SMASH),
@@ -4875,6 +4877,7 @@ static const u8 sDonphanTutorLearnset[] =
     TUTOR(MOVE_FIRE_FANG),
     TUTOR(MOVE_HIGH_HORSEPOWER),
     TUTOR(MOVE_HYPER_VOICE),
+    TUTOR(MOVE_ICE_FANG),
     TUTOR(MOVE_IRON_DEFENSE),
     TUTOR(MOVE_IRON_HEAD),
     TUTOR(MOVE_KNOCK_OFF),
@@ -8678,6 +8681,7 @@ static const u8 sBuizelTutorLearnset[] =
     TUTOR(MOVE_CRUNCH),
     TUTOR(MOVE_ENDURE),
     TUTOR(MOVE_FLIP_TURN),
+    TUTOR(MOVE_ICE_FANG),
     TUTOR(MOVE_ICE_PUNCH),
     TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_ROCK_SMASH),
@@ -9274,6 +9278,7 @@ static const u8 sHippopotasTutorLearnset[] =
     TUTOR(MOVE_DOUBLE_EDGE),
     TUTOR(MOVE_ENDURE),
     TUTOR(MOVE_HIGH_HORSEPOWER),
+    TUTOR(MOVE_ICE_FANG),
     TUTOR(MOVE_ROCK_SMASH),
     TUTOR(MOVE_SCORCHING_SANDS),
     TUTOR(MOVE_SLEEP_TALK),
@@ -12850,6 +12855,7 @@ static const u8 sKyuremTutorLearnset[] =
     TUTOR(MOVE_DUAL_WINGBEAT),
     TUTOR(MOVE_ENDURE),
     TUTOR(MOVE_HYPER_VOICE),
+    TUTOR(MOVE_ICE_FANG),
     TUTOR(MOVE_ICY_WIND),
     TUTOR(MOVE_IRON_HEAD),
     TUTOR(MOVE_OUTRAGE),
@@ -16751,13 +16757,10 @@ static const u8 sZarudeTutorLearnset[] =
 
 static const u8 sRegielekiTutorLearnset[] =
 {
+    TUTOR(MOVE_AURORA_BEAM),
     TUTOR(MOVE_BODY_SLAM),
-    
-     
-     
     TUTOR(MOVE_ENDURE),
     TUTOR(MOVE_SLEEP_TALK),
-     
     0xFF,
 };
 
@@ -16770,6 +16773,7 @@ static const u8 sRegidragoTutorLearnset[] =
     TUTOR(MOVE_DRAGON_PULSE),
     TUTOR(MOVE_ENDURE),
     TUTOR(MOVE_FIRE_FANG),
+    TUTOR(MOVE_ICE_FANG),
     TUTOR(MOVE_OUTRAGE),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_THUNDER_FANG),
