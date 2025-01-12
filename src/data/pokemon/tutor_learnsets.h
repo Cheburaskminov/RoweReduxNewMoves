@@ -878,6 +878,7 @@ static const u8 sVulpixTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
@@ -898,6 +899,7 @@ static const u8 sNinetalesTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
@@ -3425,6 +3427,7 @@ static const u8 sMewTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SUPERPOWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_TAILWIND),
     TUTOR(MOVE_THROAT_CHOP),
     TUTOR(MOVE_THUNDER_FANG),
@@ -4287,6 +4290,7 @@ static const u8 sAipomTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_THROAT_CHOP),
     TUTOR(MOVE_THUNDER_PUNCH),
     0xFF,
@@ -5945,6 +5949,7 @@ static const u8 sZigzagoonTutorLearnset[] =
     TUTOR(MOVE_SEED_BOMB),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_TRICK),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
@@ -5965,6 +5970,7 @@ static const u8 sLinooneTutorLearnset[] =
     TUTOR(MOVE_STOMPING_TANTRUM),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_THROAT_CHOP),
     TUTOR(MOVE_TRICK),
     TUTOR(MOVE_WHIRLPOOL),
@@ -9286,6 +9292,7 @@ static const u8 sBuizelTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -9304,6 +9311,7 @@ static const u8 sFloatzelTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -9389,6 +9397,7 @@ static const u8 sAmbipomTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_THROAT_CHOP),
     TUTOR(MOVE_THUNDER_PUNCH),
     TUTOR(MOVE_TRIPLE_AXEL),
@@ -9588,6 +9597,7 @@ static const u8 sStunkyTutorLearnset[] =
     TUTOR(MOVE_ROCK_SMASH),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_THROAT_CHOP),
     TUTOR(MOVE_TOXIC_SPIKES),
     0xFF,
@@ -9607,6 +9617,7 @@ static const u8 sSkuntankTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_THROAT_CHOP),
     TUTOR(MOVE_TOXIC_SPIKES),
     0xFF,
@@ -12321,18 +12332,14 @@ static const u8 sZoroarkTutorLearnset[] =
 
 static const u8 sMinccinoTutorLearnset[] =
 {
-    
-     
-     
     TUTOR(MOVE_ENDURE),
-     
-    TUTOR(MOVE_SWAGGER),
-    TUTOR(MOVE_SLEEP_TALK),
-     
+    TUTOR(MOVE_HYPER_VOICE),
     TUTOR(MOVE_KNOCK_OFF),
     TUTOR(MOVE_SEED_BOMB),
-    TUTOR(MOVE_HYPER_VOICE),
-	TUTOR(MOVE_TRIPLE_AXEL),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
+    TUTOR(MOVE_TRIPLE_AXEL),
     0xFF,
 };
 
@@ -12346,6 +12353,7 @@ static const u8 sCinccinoTutorLearnset[] =
     TUTOR(MOVE_SEED_BOMB),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_TRIPLE_AXEL),
     0xFF,
 };
@@ -14271,6 +14279,7 @@ static const u8 sMeowsticTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_TRICK),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -15445,6 +15454,7 @@ static const u8 sLycanrocTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STOMPING_TANTRUM),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_THUNDER_FANG),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -16658,6 +16668,7 @@ static const u8 sSkwovetTutorLearnset[] =
     TUTOR(MOVE_HYPER_VOICE),
     TUTOR(MOVE_SEED_BOMB),
     TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_TAIL_SLAP),
     0xFF,
 };
 
@@ -16678,6 +16689,7 @@ static const u8 sGreedentTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STOMPING_TANTRUM),
     TUTOR(MOVE_SUPERPOWER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_THUNDER_FANG),
     0xFF,
 };
@@ -16763,13 +16775,11 @@ static const u8 sOrbeetleTutorLearnset[] =
 
 static const u8 sNickitTutorLearnset[] =
 {
-     
-     
     TUTOR(MOVE_ENDURE),
-    TUTOR(MOVE_SLEEP_TALK),
-     
-    TUTOR(MOVE_KNOCK_OFF),
     TUTOR(MOVE_FOUL_PLAY),
+    TUTOR(MOVE_KNOCK_OFF),
+    TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_TAIL_SLAP),
     0xFF,
 };
 
@@ -16782,6 +16792,7 @@ static const u8 sThievulTutorLearnset[] =
     TUTOR(MOVE_ICE_FANG),
     TUTOR(MOVE_KNOCK_OFF),
     TUTOR(MOVE_SLEEP_TALK),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_THUNDER_FANG),
     0xFF,
 };
@@ -17730,6 +17741,7 @@ static const u8 sZacianTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SOLAR_BLADE),
     TUTOR(MOVE_STEEL_BEAM),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_THUNDER_FANG),
     0xFF,
 };
@@ -17749,6 +17761,7 @@ static const u8 sZamazentaTutorLearnset[] =
     TUTOR(MOVE_PSYCHIC_FANGS),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STEEL_BEAM),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_THUNDER_FANG),
     0xFF,
 };
@@ -18028,6 +18041,7 @@ static const u8 sVulpixAlolanTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
@@ -18048,6 +18062,7 @@ static const u8 sNinetalesAlolanTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_WEATHER_BALL),
     0xFF,
 };
@@ -18797,6 +18812,7 @@ static const u8 sMeowsticFemaleTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STORED_POWER),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_TRICK),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
@@ -18872,6 +18888,7 @@ static const u8 sLycanrocDuskTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STOMPING_TANTRUM),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TAIL_SLAP),
     TUTOR(MOVE_THROAT_CHOP),
     TUTOR(MOVE_THUNDER_FANG),
     TUTOR(MOVE_ZEN_HEADBUTT),
