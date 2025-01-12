@@ -1829,6 +1829,7 @@ static const u8 sSeelTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TRIPLE_AXEL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -1848,6 +1849,7 @@ static const u8 sDewgongTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TRIPLE_AXEL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -3884,6 +3886,7 @@ static const u8 sBellossomTutorLearnset[] =
     TUTOR(MOVE_SEED_BOMB),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TRIPLE_AXEL),
     0xFF,
 };
 
@@ -8368,6 +8371,7 @@ static const u8 sPiplupTutorLearnset[] =
     TUTOR(MOVE_SIGNAL_BEAM),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TRIPLE_AXEL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -8386,6 +8390,7 @@ static const u8 sPrinplupTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TRIPLE_AXEL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -8410,6 +8415,7 @@ static const u8 sEmpoleonTutorLearnset[] =
     TUTOR(MOVE_STEEL_BEAM),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TRIPLE_AXEL),
     TUTOR(MOVE_WHIRLPOOL),
     0xFF,
 };
@@ -8880,6 +8886,7 @@ static const u8 sAmbipomTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_PUNCH),
+    TUTOR(MOVE_TRIPLE_AXEL),
     0xFF,
 };
 
@@ -11130,6 +11137,7 @@ static const u8 sLeavannyTutorLearnset[] =
     TUTOR(MOVE_SIGNAL_BEAM),
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TRIPLE_AXEL),
     0xFF,
 };
 
@@ -12444,6 +12452,7 @@ static const u8 sMienshaoTutorLearnset[] =
     TUTOR(MOVE_SLEEP_TALK),
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
+    TUTOR(MOVE_TRIPLE_AXEL),
     0xFF,
 };
 
@@ -13032,6 +13041,7 @@ static const u8 sMeloettaTutorLearnset[] =
     TUTOR(MOVE_STRENGTH),
     TUTOR(MOVE_SWAGGER),
     TUTOR(MOVE_THUNDER_PUNCH),
+    TUTOR(MOVE_TRIPLE_AXEL),
     TUTOR(MOVE_ZEN_HEADBUTT),
     0xFF,
 };
