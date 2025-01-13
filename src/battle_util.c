@@ -8000,8 +8000,12 @@ static u16 CalcMoveBasePower(u16 move, u8 battlerAtk, u8 battlerDef)
             basePower *= 2;
         break;
     case EFFECT_EXPANDING_FORCE:
-        if (gFieldStatuses & STATUS_FIELD_PSYCHIC_TERRAIN && IsBattlerGrounded(battlerAtk))
-            basePower = 120;
+       if (gFieldStatuses & STATUS_FIELD_PSYCHIC_TERRAIN && gBattleMoves[move].target == MOVE_TARGET_SELECTED)
+    	{
+           gBattleStruct->dynamicMoveType = TYPE_PSYCHIC | F_DYNAMIC_TYPE_FORCE;
+           gBattleMoveDamage *= 1.5; // Power increases by 50% on Psychic Terrain
+           gBattleScripting.moveTarget = TARGET_ALL_OPPONENTS; // Affects all opponents
+    	}
         break;
     case EFFECT_BOLT_BEAK:
         if (GetBattlerTurnOrderNum(battlerAtk) < GetBattlerTurnOrderNum(battlerDef))
