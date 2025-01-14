@@ -8004,7 +8004,7 @@ static u16 CalcMoveBasePower(u16 move, u8 battlerAtk, u8 battlerDef)
     	{
            gBattleStruct->dynamicMoveType = TYPE_PSYCHIC | F_DYNAMIC_TYPE_FORCE;
            gBattleMoveDamage *= 1.5; // Power increases by 50% on Psychic Terrain
-           gBattleScripting.moveTarget = MOVE_TARGET_BOTH; // Affects both opponents
+          // Skip target modification for now
     	}
         break;
     case EFFECT_BOLT_BEAK:
