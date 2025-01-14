@@ -7833,6 +7833,12 @@ static u16 CalcMoveBasePower(u16 move, u8 battlerAtk, u8 battlerDef)
 	u16 speciesId = GetFormSpeciesId(gBattleMons[battlerAtk].species, gBattleMons[battlerAtk].formId);
 	u8 powerLimit = GetCurrentMovePowerLimit();
 
+     // Check for dynamic move type
+    // if (gBattleStruct->dynamicMoveType & F_DYNAMIC_TYPE_FORCE)
+    // {
+    //     gBattleMoves[move].type = gBattleStruct->dynamicMoveType & TYPE_MASK; // Use the forced type
+    // }
+
     switch (gBattleMoves[move].effect)
     {
     case EFFECT_PLEDGE:
@@ -7999,12 +8005,12 @@ static u16 CalcMoveBasePower(u16 move, u8 battlerAtk, u8 battlerDef)
         if (gBattleMoves[gLastUsedMove].effect == EFFECT_FUSION_COMBO && move != gLastUsedMove)
             basePower *= 2;
         break;
-    case EFFECT_EXPANDING_FORCE:
-       if (gFieldStatuses & STATUS_FIELD_PSYCHIC_TERRAIN && gBattleMoves[move].target == MOVE_TARGET_SELECTED)
+   case EFFECT_EXPANDING_FORCE:
+    	if (gFieldStatuses & STATUS_FIELD_PSYCHIC_TERRAIN && gBattleMoves[move].target == MOVE_TARGET_SELECTED)
     	{
-           gBattleStruct->dynamicMoveType = TYPE_PSYCHIC | F_DYNAMIC_TYPE_FORCE;
-           gBattleMoveDamage *= 1.5; // Power increases by 50% on Psychic Terrain
-          // Skip target modification for now
+        	// gBattleMoves[move].type = TYPE_PSYCHIC; // Explicitly set to Psychic
+        	gBattleMoveDamage *= 1.5; // Power increases by 50% on Psychic Terrain
+        	// Skip target modification for now
     	}
         break;
     case EFFECT_BOLT_BEAK:
