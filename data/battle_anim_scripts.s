@@ -13924,7 +13924,114 @@ Move_STEEL_BEAM::
 	goto Move_HYPER_BEAM
 
 Move_EXPANDING_FORCE::
-	goto Move_DAZZLING_GLEAM
+	loadspritegfx ANIM_TAG_CIRCLE_OF_LIGHT
+	loadspritegfx ANIM_TAG_EXPLOSION_2
+	createvisualtask AnimTask_BlendParticle, 0x5, ANIM_TAG_CIRCLE_OF_LIGHT, 0x0, 0xA, 0xA, 0x7DDE
+	createvisualtask AnimTask_BlendParticle, 0x5, ANIM_TAG_EXPLOSION_2, 0x0, 0xA, 0xA, 0x7DDE
+	monbg ANIM_DEF_PARTNER
+	call SetPsychicBackground
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_ATTACKER, 1, 0, 10, 1
+	createvisualtask AnimTask_BlendColorCycle, 2, F_PAL_ATTACKER, F_PAL_ATTACKER, 2, 0, 8, RGB(31, 23, 0)
+	waitforvisualfinish
+	playsewithpan SE_M_MEGA_KICK, SOUND_PAN_TARGET
+	choosetwoturnanim EXPANDING_FORCE_SINGLE_TARGET EXPANDING_FORCE_BOTH_TARGETS
+
+ EXPANDING_FORCE_SINGLE_TARGET:
+	createsprite gSpriteTemplate_SpiritBreakChargeBall, ANIM_TARGET, 1, ANIM_TARGET
+	waitforvisualfinish
+	createvisualtask AnimTask_ShakeTargetBasedOnMovePowerOrDmg, 0x2, 0x0, 0x1, 0x18, 0x1, 0x0
+	call MaxKnuckleExplosionGeyser
+	waitforvisualfinish
+	call UnsetPsychicBg
+	clearmonbg ANIM_DEF_PARTNER
+	end
+
+ EXPANDING_FORCE_BOTH_TARGETS:
+	createsprite gSpriteTemplate_SpiritBreakChargeBall, ANIM_TARGET, 1, ANIM_TARGET
+	createsprite gSpriteTemplate_SpiritBreakChargeBall, ANIM_TARGET, 1, ANIM_DEF_PARTNER
+	waitforvisualfinish
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_TARGET, 5, 0, 24, 1 @;High power
+	createvisualtask AnimTask_ShakeMon, 2, ANIM_DEF_PARTNER, 5, 0, 24, 1
+	call ExpandingForceExplosionGeyser
+	waitforvisualfinish
+	call UnsetPsychicBg
+	clearmonbg ANIM_DEF_PARTNER
+	end
+
+ ExpandingForceExplosionGeyser:
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0x0003, 0x0005, ANIM_TARGET
+	playsewithpan SE_M_SELF_DESTRUCT, SOUND_PAN_TARGET
+	delay 0x0
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0xfff5, 0xfff1, ANIM_TARGET
+	playsewithpan SE_M_SELF_DESTRUCT, SOUND_PAN_TARGET
+	delay 0x0
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0x0008, 0xfffb, ANIM_TARGET
+	playsewithpan SE_M_SELF_DESTRUCT, SOUND_PAN_TARGET
+	delay 0x0
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0xfffa, 0x0012, ANIM_TARGET
+	playsewithpan SE_M_SELF_DESTRUCT, SOUND_PAN_TARGET
+	delay 0x0
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0x0000, 0x0005, ANIM_TARGET
+	playsewithpan SE_M_SELF_DESTRUCT, SOUND_PAN_TARGET
+	delay 0x0
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0x0003, 0xfff5, ANIM_TARGET
+	delay 0x0
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0xfff5, 0xffe1, ANIM_TARGET
+	delay 0x0
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0x0008, 0xffeb, ANIM_TARGET
+	delay 0x0
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0xfffa, 0x0002, ANIM_TARGET
+	delay 0x0
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0x0000, 0xfff5, ANIM_TARGET
+	delay 0x0
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0x0003, 0xffe5, ANIM_TARGET
+	delay 0x0
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0xfff5, 0xffd1, ANIM_TARGET
+	delay 0x0
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0x0008, 0xffdb, ANIM_TARGET
+	delay 0x0
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0xfffa, 0xfff2, ANIM_TARGET
+	delay 0x0
+	createsprite gSpriteTemplate_ExpandingForceExplode, ANIM_TARGET, 4, 0x0000, 0xffe5, ANIM_TARGET
+	return
+
+MaxKnuckleExplosionGeyser:
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0x0003, 0x0005, ANIM_TARGET, 0x0
+	playsewithpan SE_M_SELF_DESTRUCT, SOUND_PAN_TARGET
+	delay 0x0
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0xfff5, 0xfff1, ANIM_TARGET, 0x0
+	playsewithpan SE_M_SELF_DESTRUCT, SOUND_PAN_TARGET
+	delay 0x0
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0x0008, 0xfffb, ANIM_TARGET, 0x0
+	playsewithpan SE_M_SELF_DESTRUCT, SOUND_PAN_TARGET
+	delay 0x0
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0xfffa, 0x0012, ANIM_TARGET, 0x0
+	playsewithpan SE_M_SELF_DESTRUCT, SOUND_PAN_TARGET
+	delay 0x0
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0x0000, 0x0005, ANIM_TARGET, 0x0
+	playsewithpan SE_M_SELF_DESTRUCT, SOUND_PAN_TARGET
+	delay 0x0
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0x0003, 0xfff5, ANIM_TARGET, 0x0
+	delay 0x0
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0xfff5, 0xffe1, ANIM_TARGET, 0x0
+	delay 0x0
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0x0008, 0xffeb, ANIM_TARGET, 0x0
+	delay 0x0
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0xfffa, 0x0002, ANIM_TARGET, 0x0
+	delay 0x0
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0x0000, 0xfff5, ANIM_TARGET, 0x0
+	delay 0x0
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0x0003, 0xffe5, ANIM_TARGET, 0x0
+	delay 0x0
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0xfff5, 0xffd1, ANIM_TARGET, 0x0
+	delay 0x0
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0x0008, 0xffdb, ANIM_TARGET, 0x0
+	delay 0x0
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0xfffa, 0xfff2, ANIM_TARGET, 0x0
+	delay 0x0
+	createsprite gLightThatBurnsTheSkyExplosionSpriteTemplate, ANIM_TARGET, 4, 0x0000, 0xffe5, ANIM_TARGET, 0x0
+	return
+
 
 Move_STEEL_ROLLER::
 	end @to do:
